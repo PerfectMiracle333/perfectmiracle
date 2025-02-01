@@ -1,0 +1,78 @@
+html,body{
+    display: grid;
+    height: 10vh;
+    place-items: center;
+    background: rgb(179, 6, 179);
+}
+.main_div{
+    height: 100px;
+    width: 365px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+.main_div .title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+.main_div .social{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.social a{
+    display:;
+    height: 45px;
+    width: 365%;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    transition: all 0.3s linear;
+}
+.social span{
+    margin-left: 5px;
+    font-size: 18px;
+}
+.social a:first-child{
+    margin-right: 5px;
+    background: #4267b2;
+}
+.social a:last-child{
+    margin-left: 5px;
+    background: #1da1f2;
+}
+form{
+    margin-top: 15px;
+    width: 365px;
+}
+form .input{
+    width: 100%;
+    position: relative;
+    margin-top: 5px;
+    background: none;
+    height: 50px;
+}
+.input input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    font-size: 17px;
+    padding-left: 45px;
+    border-radius: 5px;
+}
+button{
+    height: 200%;
+    align-content: center;
+    width: 114%;
+    /* outline: none; */
+    font-size: 17px;
+    padding-left: 45px;
+    border-radius: 5px;} 
+.Signup{
+    text-align: center;
+}

@@ -1,0 +1,97 @@
+html,body{
+    display: grid;
+    height: 100vh;
+    place-items: center;
+    background: #c72aea;
+}
+.main_div{
+    width: 350px;
+    background: white;
+    padding: 45px;
+    border-radius: 5px;
+}
+.main_div .title{
+    text-align: center;
+    font-size: 30px;
+}
+.main_div .social{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.social a{
+    height: 45px;
+    width: 100%;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+.social span{
+    margin-left: 5px;
+    font-size: 20px;
+}
+.social a:first-child{
+    margin-right: 5px;
+    background: #4a73c6;
+}
+.social a:last-child{
+    margin-left: 5px;
+    background: #1ca0f3;
+}
+form{
+    margin-top: 25px;
+}
+form .input{
+    height: 50px;
+    width: 100%;
+    position: relative;
+    margin-top: 15px;
+}
+.input input{
+    height: 94%;
+    width: 100%;
+    outline: none;
+    font-size: 17px;
+    padding-left: 0px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+}
+form .option{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.option .checkbox{
+    display: flex;
+    align-items: center;
+}
+.option .forget a{
+    color: #be2edd;
+    text-decoration: none;
+} 
+.login input{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    padding-left: 0;
+    background: #be2edd;
+    cursor: pointer; */
+}
+form .signup{
+    text-align: center;
+    margin: 20px;
+}
+.signup a{
+    color: #c72aea;
+    text-decoration: none;
+}
+.input .icon {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    color: grey;
+}
